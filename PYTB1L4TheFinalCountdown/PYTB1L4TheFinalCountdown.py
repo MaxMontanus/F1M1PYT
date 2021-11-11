@@ -1,11 +1,11 @@
 def Max(maxvalue):
 
-    count = 1
+    count = 10000
     while count > 0 :
         print(count)
-        count += 1
-        if count == maxvalue + 1:
+        count -= 1
+        if count == maxvalue - 1:
             break
     print( 'Sheeeeeeeshhhhh')
 
-Max(100000)
+Max(0)

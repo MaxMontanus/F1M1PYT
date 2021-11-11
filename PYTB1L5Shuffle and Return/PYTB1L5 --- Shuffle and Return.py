@@ -1,5 +1,5 @@
 import random
 
-original = "Yoo"
-originalrandom = ''.join(random.sample(original, len(original)))
+original = "Hallo"
+originalrandom = 'Hallo'.join(random.sample(original, len(original)))
 print(originalrandom)
